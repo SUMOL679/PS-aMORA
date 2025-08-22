@@ -61,21 +61,6 @@ Valor mensal com 8% ao ano:
 ParcelaAnoN = ParcelaBase × (1 + TaxaAnual)^(Ano-1)
 ```
 
-## Características
-
-- ✅ Aceita valores decimais (use vírgula como separador)
-- ✅ Validação de entrada com mensagens claras
-- ✅ Formatação de moeda brasileira (R$ X.XXX,XX)
-- ✅ Cálculos precisos com correção anual
-- ✅ Interface amigável via linha de comando
-
-## Formato de Entrada
-
-- **Números decimais**: Use vírgula (ex: `500000,50`)
-- **Percentuais**: Digite apenas o número (ex: `10` para 10%)
-- **Anos**: Apenas números inteiros (ex: `3`)
-- **Taxas**: Decimais permitidos (ex: `7,5` para 7,5%)
-
 ## Tecnologias
 
 - **Node.js**: Runtime JavaScript
